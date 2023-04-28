@@ -1,0 +1,86 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=devcert
+        Validity
+            Not Before: Mar 27 04:51:23 2023 GMT
+            Not After : Jun 29 04:51:23 2025 GMT
+        Subject: CN=dev-hyp.nouce.dev
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:9d:19:29:36:43:87:a2:0d:cc:c7:b8:54:3c:15:
+                    8f:86:16:fc:a0:4b:7d:58:5e:d2:96:5f:47:fa:52:
+                    d9:71:7e:ef:9b:f1:72:88:5a:9e:82:7a:33:de:d4:
+                    24:02:e1:88:70:f5:f0:65:0e:de:fa:61:a6:26:22:
+                    87:3d:3d:7e:57:66:8f:f8:32:d5:5c:a8:11:75:04:
+                    5a:40:d6:f3:a3:47:b4:88:21:00:fe:b2:54:f1:4e:
+                    81:07:84:94:33:0b:e1:ca:96:9a:ad:1e:0b:26:55:
+                    13:8d:d6:31:02:75:d9:41:5c:38:1e:61:27:f4:96:
+                    eb:6f:bc:06:27:d3:6b:f6:f5:16:52:55:51:46:cf:
+                    23:a7:57:4b:78:db:6a:d9:4b:51:aa:e4:33:3d:94:
+                    79:d8:70:e2:c4:76:83:e0:79:67:4d:50:5f:8c:a6:
+                    1c:94:f5:70:d0:ae:a8:2e:16:0c:77:19:2a:34:3c:
+                    63:3d:1f:39:eb:7e:13:7f:99:73:90:ea:60:10:15:
+                    87:e9:f1:4f:46:3f:03:87:72:24:31:b5:39:a9:dd:
+                    ee:97:0f:04:24:b7:80:9c:2c:3e:2b:68:07:37:51:
+                    36:86:43:13:8b:b2:06:a2:ac:6b:27:f6:b2:82:a4:
+                    a9:5e:c7:c8:38:c1:93:0f:ea:1c:2d:94:7c:54:cf:
+                    5f:63
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                14:8E:CE:A9:3B:15:32:42:1D:FF:02:EB:50:AA:10:2E:4A:B8:20:04
+            X509v3 Authority Key Identifier: 
+                keyid:FA:35:BE:0B:7C:A8:52:62:79:7E:94:0D:7C:DE:95:9E:F5:3D:36:6A
+                DirName:/CN=devcert
+                serial:AE:55:9A:B6:37:7C:7D:1E
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:dev-hyp.nouce.dev, DNS:*.dev-hyp.nouce.dev
+    Signature Algorithm: sha256WithRSAEncryption
+         22:80:2b:bb:b4:ab:d6:90:1e:b4:da:8e:46:68:64:d6:32:ae:
+         54:10:67:be:96:82:12:9c:e0:60:b7:b5:dd:89:e7:de:18:9c:
+         6a:5a:a2:13:0c:90:bc:6f:92:c7:73:6c:f4:1d:3b:ac:a6:6f:
+         59:5d:cc:52:68:54:af:a4:12:c5:4c:18:31:dc:2e:25:14:8c:
+         78:2f:b5:18:8f:56:51:4b:b8:f8:2d:3d:5a:94:e2:03:e9:46:
+         fd:50:28:fa:b8:e0:ca:85:43:f7:4e:b3:02:b2:96:47:7e:cf:
+         15:25:e2:70:3f:fa:39:56:16:45:17:9b:19:f9:59:29:04:26:
+         bf:a2:75:81:d7:40:1a:cc:c5:ad:47:9a:ae:63:15:71:2d:41:
+         e7:c3:56:34:5b:46:6a:be:bb:60:78:0f:9b:39:22:9e:a0:1f:
+         1b:2f:7f:c0:25:c1:7f:83:a0:3d:d2:8f:26:c0:fb:d1:f0:9f:
+         23:df:ef:6b:cc:07:ae:eb:7c:d5:e8:3a:4e:8b:de:e9:00:5f:
+         b3:d1:a1:51:9c:69:b8:85:67:07:4c:03:b3:14:0c:2c:a0:35:
+         86:7b:d3:03:26:d2:cf:b8:1c:c1:96:21:e4:ed:93:ff:db:51:
+         ed:fe:1b:4f:b2:48:45:f9:dd:b0:e6:ae:c2:99:b0:84:4f:12:
+         48:f4:66:a9
+-----BEGIN CERTIFICATE-----
+MIIDdjCCAl6gAwIBAgIBAjANBgkqhkiG9w0BAQsFADASMRAwDgYDVQQDDAdkZXZj
+ZXJ0MB4XDTIzMDMyNzA0NTEyM1oXDTI1MDYyOTA0NTEyM1owHDEaMBgGA1UEAwwR
+ZGV2LWh5cC5ub3VjZS5kZXYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCdGSk2Q4eiDczHuFQ8FY+GFvygS31YXtKWX0f6Utlxfu+b8XKIWp6CejPe1CQC
+4Yhw9fBlDt76YaYmIoc9PX5XZo/4MtVcqBF1BFpA1vOjR7SIIQD+slTxToEHhJQz
+C+HKlpqtHgsmVRON1jECddlBXDgeYSf0lutvvAYn02v29RZSVVFGzyOnV0t422rZ
+S1Gq5DM9lHnYcOLEdoPgeWdNUF+MphyU9XDQrqguFgx3GSo0PGM9HznrfhN/mXOQ
+6mAQFYfp8U9GPwOHciQxtTmp3e6XDwQkt4CcLD4raAc3UTaGQxOLsgairGsn9rKC
+pKlex8g4wZMP6hwtlHxUz19jAgMBAAGjgcwwgckwDAYDVR0TAQH/BAIwADAdBgNV
+HQ4EFgQUFI7OqTsVMkId/wLrUKoQLkq4IAQwQgYDVR0jBDswOYAU+jW+C3yoUmJ5
+fpQNfN6VnvU9NmqhFqQUMBIxEDAOBgNVBAMMB2RldmNlcnSCCQCuVZq2N3x9HjAO
+BgNVHQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwMQYDVR0RBCowKIIR
+ZGV2LWh5cC5ub3VjZS5kZXaCEyouZGV2LWh5cC5ub3VjZS5kZXYwDQYJKoZIhvcN
+AQELBQADggEBACKAK7u0q9aQHrTajkZoZNYyrlQQZ76WghKc4GC3td2J594YnGpa
+ohMMkLxvksdzbPQdO6ymb1ldzFJoVK+kEsVMGDHcLiUUjHgvtRiPVlFLuPgtPVqU
+4gPpRv1QKPq44MqFQ/dOswKylkd+zxUl4nA/+jlWFkUXmxn5WSkEJr+idYHXQBrM
+xa1Hmq5jFXEtQefDVjRbRmq+u2B4D5s5Ip6gHxsvf8AlwX+DoD3SjybA+9HwnyPf
+72vMB67rfNXoOk6L3ukAX7PRoVGcabiFZwdMA7MUDCygNYZ70wMm0s+4HMGWIeTt
+k//bUe3+G0+ySEX53bDmrsKZsIRPEkj0Zqk=
+-----END CERTIFICATE-----
