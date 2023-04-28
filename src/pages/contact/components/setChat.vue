@@ -316,10 +316,11 @@ onMounted(() => {
     margin: 24px 36px;
 
     .member {
+      border-radius: 12px;
       margin-top: 24px;
       background-color: #fff;
       margin-bottom: 20px;
-      border-radius: 24px;
+      
 
       .title {
         display: flex;
@@ -339,8 +340,8 @@ onMounted(() => {
     }
 
     .grid_name {
-      width: 12.90667vw;
-      font-size: 24px;
+    
+      font-size: 16px;
       color: #939395ff;
       white-space: nowrap;
       overflow: hidden;
@@ -354,6 +355,6 @@ onMounted(() => {
 .gonggao,
 .center,
 .centerBom {
-  border-radius: 24px;
+  border-radius: 12px;
   overflow: hidden;
 }</style>

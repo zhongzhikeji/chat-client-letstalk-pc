@@ -8,7 +8,7 @@
         </div>
         <div class="center">
             <p style="
-                                        font-size: 22px;
+                                        font-size: 20px;
                                         font-family: Source Han Sans CN-Regular, Source Han Sans CN;
                                         font-weight: 400;
                                         color: #000000;
@@ -117,21 +117,21 @@ const afterRead = (file) => {
     }
 
     .btn {
-        width: 320px;
-        height: 80px;
+        width:80%;
+        height: 50px;
         background: #44B5FF;
         border-radius: 20px 20px 20px 20px;
         opacity: 1;
         color: #fff;
         text-align: center;
-        line-height: 80px;
+        line-height: 50px;
         margin: 0 auto;
         margin-top: 100px;
     }
 
     .avator {
-        height: 200px;
-        width: 200px;
+        height: 80px;
+        width: 80px;
         border-radius: 10px;
         overflow: hidden;
         display: inline-block;
